@@ -125,7 +125,7 @@ void print_everything (MAP *map, PLAYER *player, MOBLIST *mobs) {
 
     print_map(map);
     print_mobs(mobs);
-    // print_dark(map, player);
+    print_dark(map, player);
     print_player(player);
     print_info(player, map->wid, map->hei);
 
